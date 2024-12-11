@@ -1,0 +1,88 @@
+.about {
+    padding: 40px 20px; /* Padding around the section */
+    text-align: center; /* Center align text */
+    background-color: #f4f4f4; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    margin: 0px; /* Margin around the section */
+}
+
+.about h2 {
+    font-size: 2em; /* Font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.about p {
+    font-size: 1.2em; /* Font size for the paragraph */
+    line-height: 1.6; /* Line height for better readability */
+    max-width: 600px; /* Maximum width for the paragraph */
+    margin: 0 auto; /* Center align the paragraph */
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: #f3f3f3;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    align-items: center;
+    text-align: left;
+}
+
+.about-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    /* color: #333; */
+}
+
+.about-text h3 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /* color: #555; */
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    /* color: #666; */
+}
+
+.education-list {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.education-list li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    /* color: #444; */
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+

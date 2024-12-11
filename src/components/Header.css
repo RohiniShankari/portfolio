@@ -1,0 +1,52 @@
+.header {
+    background-color: #333; /* Dark background for the header */
+    color: #fff; /* White text color */
+    padding: 20px; /* Padding around the header */
+     text-align: right;/* Center align text */
+     /*position: relative; Positioning for the toggle button */
+}
+
+
+
+.header nav {
+    margin-top: 20px; /* Space between title and navigation */
+}
+
+.header nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.header nav ul li {
+    display: inline; /* Display list items inline */
+    /* margin: 400px; Space between navigation items */
+}
+
+.header nav ul li a {
+    color: #fff; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.header nav ul li a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+
+.header button {
+    background-color: #ffcc00; /* Button background color */
+    color: #333; /* Button text color */
+    border: none; /* Remove border */
+    padding: 10px 15px; /* Padding for the button */
+    cursor: pointer; /* Change cursor to pointer */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 10px; /* Space above the button */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.header button:hover {
+    background-color: #e6b800; /* Darker shade on hover */
+}
+
+nav{
+    margin-left:0px;
+}
